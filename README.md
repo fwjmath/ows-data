@@ -22,7 +22,7 @@ Fang, W., Beckert, U. Parallel Tree Search in Volunteer Computing: a Case Study.
 
 ### Input/checkpoint file
 
-Here is an example of an input/checkpoint file
+Here is an example of an input/checkpoint file in the second batch (1e28):
 
 ```
 10000000000000000000000000000
@@ -57,6 +57,8 @@ Here is an explanation of the meaning of each line:
 - Line 8: Checksum, a quantity mixing various statistics to ensure correct computation by volunteers
 - Line 9: The number of sections left in the current workunit
 - The rest: Factorization of the current number. Each line corresponds to a prime, the first number is the index of the prime, the second its power, the third its value.
+
+For files in the first batch (1e21), we don't have Line 3, as there is no restriction on abundance. All the rest is the same.
 
 ### Result file
 
